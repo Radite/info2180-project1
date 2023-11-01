@@ -181,3 +181,59 @@ nav a:hover {
 .card-body {
     padding: 15px;                
 }
+
+.testing {
+    background-color: #4A5568;
+    color: white;
+    padding: 20px 0;
+}
+
+.testing .container {
+    display: flex;
+    max-width: 60%;
+    align-items: center;  /* Centers the container's items vertically */
+}
+
+.testing-description {
+    flex: 1;  /* Ensures description takes the full available space */
+}
+
+.testing-description h2,
+.testing-description p {
+    margin: 0;
+    padding-right: 20px;  /* Space between description and the button */
+}
+
+.testing-description h2 {
+    margin-bottom: 10px;  /* Space between the title and paragraph */
+}
+
+.testing-description p {
+    font-size: 16px;
+    max-width: 90%;  /* Control paragraph's width for readability */
+}
+
+.cta {
+    display: flex;
+    align-items: center;  /* Vertical alignment of the button */
+}
+
+/* Styling for button */
+
+.cta .btn {
+    width: 100px;
+    display: inline-block;
+    background-color: #48BB78;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 16px;  /* Font size of the button's text */
+}
+
+.cta .btn:hover {
+    background-color: #3CA865;  /* Change button's color on hover */
+}
