@@ -25,7 +25,7 @@ body {
 
     /* Set container width with a maximum width */
     width: 90%;
-    max-width: 1200px;
+    max-width: 1000px;
 
     /* Center the container horizontally and add padding */
     margin: 0 auto;
@@ -54,6 +54,7 @@ header {
 
 header h1 {
     /* Push h1 to the left of the header when in a flex container */
+    margin-left: 40px;
     margin-right: auto; 
 }
 
@@ -120,7 +121,7 @@ nav a:hover {
     display: block;
     align-items: flex-start;
     width: 80%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -243,7 +244,7 @@ nav a:hover {
     display: block;
     align-items: flex-start; /* Vertical alignment at the start of the container */
     width: 50%;
-    max-width: 1200px; /* Maximum container width */
+    max-width: 1000px; /* Maximum container width */
     margin: 0 auto; /* Center the container horizontally */
     padding: 0 10px; /* Horizontal padding */
 }
@@ -314,7 +315,7 @@ footer {
 
 /* Container settings within the footer */
 .footer .container {
-    max-width: 1200px; /* Maximum width for the footer container */
+    max-width: 1000px; /* Maximum width for the footer container */
     margin: 0 auto; /* Center the container horizontally */
     padding: 0 20px; /* Horizontal padding */
     padding: 20px; /* Uniform padding for the container */
@@ -341,7 +342,7 @@ p.therapeutic-quote {
 .stories .container {
     display: block;
     width: 60%;
-    max-width: 1200px; 
+    max-width: 1000px; 
     margin: 0 auto;
     padding: 0 20px; 
 }
@@ -380,7 +381,7 @@ a {
 .stories .article-body h3 {
     font-size: 18px; /* Title size for each story */
     margin-bottom: 10px;
-    color: #000000; 
+    color: #5A67D8; 
 }
 
 .stories .article-body p {
