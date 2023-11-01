@@ -332,6 +332,10 @@ footer a:hover {
     color: #5A67D8;
 }
 
+p.therapeutic-quote {
+    font-size: 14px; /* adjust the value as needed */
+}
+
 /* Stories Styles */
 
 .stories .container {
