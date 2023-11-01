@@ -331,3 +331,66 @@ footer a {
 footer a:hover {
     color: #5A67D8;
 }
+
+/* Stories Styles */
+
+.stories .container {
+    display: block;
+    width: 60%;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px; 
+}
+
+a {
+    text-decoration: none;
+    transition: 0.3s; /* Smooth transition for hover effects */
+}
+
+/* Recent Stories Section */
+
+.stories {
+    margin: 40px 0;
+}
+
+.stories h2 {
+    font-size: 24px;
+    color: #5A67D8; /* Color of the main heading "Recent Stories" */
+    margin-bottom: 20px;
+}
+
+.stories article {
+    display: flex;
+    align-items: center; /* Vertically aligns the image with the content */
+    margin-bottom: 30px; /* Spacing between each story */
+}
+
+.stories img {
+    border-radius: 50%; /* Makes the image circular */
+    width: 150px; 
+    height: 150px;
+    object-fit: cover; /* Ensures the image content is resized to fit the container */
+    margin-right: 20px; /* Spacing between the image and the content */
+}
+
+.stories .article-body h3 {
+    font-size: 18px; /* Title size for each story */
+    margin-bottom: 10px;
+    color: #000000; 
+}
+
+.stories .article-body p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    
+}
+
+.stories .article-body a {
+    font-weight: bold;
+    color: #5A67D8; /* Link color */
+}
+
+.stories .article-body a:hover {
+    text-decoration: underline; /* Underline effect on hover */
+}
+
