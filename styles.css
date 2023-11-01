@@ -237,3 +237,97 @@ nav a:hover {
 .cta .btn:hover {
     background-color: #3CA865;  /* Change button's color on hover */
 }
+
+/* Container settings specific to the newsletter section */
+.newsletter .container {
+    display: block;
+    align-items: flex-start; /* Vertical alignment at the start of the container */
+    width: 50%;
+    max-width: 1200px; /* Maximum container width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 10px; /* Horizontal padding */
+}
+
+/* Styling for the newsletter section */
+.newsletter {
+    background-color: #48BB78;
+    color: white;
+    text-align: center;
+    padding: 30px 50px;
+}
+
+/* Flex layout for the newsletter form */
+.newsletter form {
+    display: flex;
+    justify-content: center; /* Center form elements horizontally */
+}
+
+/* Newsletter button styling */
+.newsletter button {
+    background-color: #5A67D8;
+    border: none;
+    padding: 10px 30px;
+    color: white;
+    cursor: pointer;
+    margin-left: -20px; /* Force button towards the email input */
+}
+
+/* Common margin setting for newsletter headings and paragraphs */
+.newsletter h3, .newsletter p {
+    margin-bottom: 20px;
+}
+
+/* Adjustments for the input container within the form */
+.newsletter .form-group {
+    flex-grow: 1; /* Allow the input container to grow within the form */
+    max-width: 400px;
+    overflow: hidden;
+}
+
+/* Styling for the email input field */
+.newsletter input[type="email"] {
+    width: 80%; /* Take up 80% of the parent's width */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Hover effect for the newsletter button */
+.newsletter button:hover {
+    background-color: #434190;
+}
+
+/* Styling for the paragraph within the newsletter section */
+.newsletter p {
+    text-align: left;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* General styling for the footer */
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 20px 0;
+}
+
+/* Container settings within the footer */
+.footer .container {
+    max-width: 1200px; /* Maximum width for the footer container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Horizontal padding */
+    padding: 20px; /* Uniform padding for the container */
+}
+
+/* Styling for links within the footer */
+footer a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s; /* Transition for hover effect */
+}
+
+/* Hover effect for links within the footer */
+footer a:hover {
+    color: #5A67D8;
+}
