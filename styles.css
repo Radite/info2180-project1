@@ -91,3 +91,29 @@ nav a:hover {
     /* Change color on hover */
     color: #5A67D8;
 }
+
+/* Define the styles for the hero overview container */
+.overview-hero {
+    background-color: #E2E8F0; 
+    padding: 20px; 
+}
+
+/* Style for the image in the hero section */
+.overview-hero-image img {
+    
+    margin-left: 170px;
+    width: 150px; 
+    margin-right: 20px; 
+}
+
+/* Style for the text content in the hero section */
+.overview-hero-text {
+    max-width: 60%; 
+}
+
+/* Style for the title in the hero section */
+.overview-hero h2 {
+    font-size: 24px;
+    margin-bottom: 20px; 
+}
+
